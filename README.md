@@ -17,6 +17,7 @@ Use Powershell Get-Help for more detail on how to use each script.
 The Powershell scripts require the PowerCLI 6.5 R1 and Hv.Helper to be installed.
 
 [VMware blog](https://blogs.vmware.com/euc/2017/01/vmware-horizon-7-powercli-6-5.html)
+
 [Hv.Helper Github](https://github.com/vmware/PowerCLI-Example-Scripts)
 
 ## How it Works with Nagios Core
