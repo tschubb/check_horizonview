@@ -2,7 +2,7 @@
 
 I have recently started writing a collection of Nagios checks to monitor Horizon View to flag issues that need investigating. More in-depth monitoring can be done via vRealise. I am planning to add/remove/combine these checks as time goes on. The scripts are designed to used with NRPE/NSclient++ on a Windows host.
 
-**Current Version:** Release v1.0
+**Current Version:** Release v1.1
 
 Checks:
 
