@@ -2,7 +2,7 @@
 
 I have recently started writing a collection of Nagios checks to monitor Horizon View to flag issues that need investigating. More in-depth monitoring can be done via vRealise. I am planning to add/remove/combine these checks as time goes on. The scripts are designed to used with NRPE/NSclient++ on a Windows host.
 
-**Current Version:** Release v1.1
+**Current Version:** Release v1.2
 
 Checks:
 
@@ -25,6 +25,14 @@ The Powershell scripts require the PowerCLI 6.5 R1 and Hv.Helper to be installed
 Nagios Core --> NRPE/NSClient++ --> Horizon View API
 
 I plan to do a full guide on how to setup these checks in the furture.
+
+## Release Notes
+
+v1.0 - Initial version
+
+v1.1 - Added per pool session count to perfdata string
+
+v1.2 - The perfdata string now includes pools with zero sessions 
 
 ## Contribute/Feature Requests
 
