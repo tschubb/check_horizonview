@@ -2,7 +2,7 @@
 
 I have recently started writing a collection of Nagios checks to monitor Horizon View to flag issues that need investigating. More in-depth monitoring can be done via vRealise. I am planning to add/remove/combine these checks as time goes on. The scripts are designed to used with NRPE/NSclient++ on a Windows host.
 
-**Current Version:** Release v1.2
+**Current Version:** Release v1.3
 
 Checks:
 
@@ -32,7 +32,9 @@ v1.0 - Initial version
 
 v1.1 - Added per pool session count to perfdata string
 
-v1.2 - The perfdata string now includes pools with zero sessions 
+v1.2 - The perfdata string now includes pools with zero sessions
+
+v1.3 - Change perfdata delimiter to a space
 
 ## Contribute/Feature Requests
 
