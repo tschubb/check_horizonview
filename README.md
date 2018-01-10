@@ -2,13 +2,14 @@
 
 I have recently started writing a collection of Nagios checks to monitor Horizon View to flag issues that need investigating. More in-depth monitoring can be done via vRealise. I am planning to add/remove/combine these checks as time goes on. The scripts are designed to used with NRPE/NSclient++ on a Windows host.
 
-**Current Version:** Release v1.3
+**Current Version:** Release v1.4
 
 Checks:
 
  * check_horizonview_sessions.ps1 - checks the amount of sessions in a connected or disconnected state. (outputs perf data)
  * check_horizonview_provisioning_error.ps1 - checks for machines in a provisioning_error state.
  * check_horizonview_agent_unreachable.ps1 - checks for machines in a agent_unreachable state.
+ * check_horizonview_disabled_pools.ps1 - checks for pools in a disabled state.
 
 Use Powershell Get-Help for more detail on how to use each script.
 
@@ -35,6 +36,8 @@ v1.1 - Added per pool session count to perfdata string
 v1.2 - The perfdata string now includes pools with zero sessions
 
 v1.3 - Change perfdata delimiter to a space
+
+v1.4 - Corrected 'critical' output typo in the provisioning error check and add new check to monitor for disabled pools
 
 ## Contribute/Feature Requests
 
